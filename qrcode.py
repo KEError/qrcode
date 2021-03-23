@@ -17,7 +17,9 @@ except :
         print('permission granted ')
     except :
         pass
-    
+import pyqrcode
+import png
+from pyqrcode import QRCode
 if os.path.isdir('/sdcard/export_qrcode')==False:
     os.system('mkdir /sdcard/export_qrcode')
 print('\033[0;30;42m APPLICATION BY KEERRORBAFUS FOR GENERATING QRCODE OF YOUR OWN \033[0;37;40m')
